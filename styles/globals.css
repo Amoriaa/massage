@@ -1,16 +1,38 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.menu{
+  width: 530px;
+  height: 130px;
+    top: -130px;
+    left: 11rem;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: inline;
+  
 }
-
-a {
-  color: inherit;
+.navi{
+  display: inline;
+  z-index: 1;
+  top: -190px;
+    left: -13rem;
+}
+.nav{
+  transition: 0.3s ease;
+  
+  vertical-align:top;
+  padding: 10px;
+}
+.menu a{
+  transition: 0.3s ease;
+  
+  margin: 40px;
   text-decoration: none;
+  color: #381404;
 }
+.navi a:hover{
 
-* {
-  box-sizing: border-box;
+  color: #381404;
+  background: #D7A99F;
+  border-radius: 12px 12px 12px 12px;
+  transform: scale(1.2);
+  box-shadow: 0px 2px 0px 2px #B19A91;
 }

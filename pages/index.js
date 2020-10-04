@@ -1,65 +1,52 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/Navbar'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+    <>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,136&display=swap" rel="stylesheet"></link>
+    <title>|Главная|</title>
+    <meta name="keywords" content="массаж, релакс, уход за собой, уход, как делать массаж, массаж Рига, массаж Латвия" />
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <div className="information">
+        <div className="name"><h1>Юлия Демчук</h1></div>
+            <div className="line"></div>
+            <div className="galochka"></div>
+                <div className="info1"><p>Медицинское образование<br/>Многолетний опыт работы</p></div>
+                    <div className="info2">
+                      <p>Специалист, который поможет вашему телу и коже
+приобрести тонус, упругость, а так же 
+омолаживающий эффект.</p>
+                    </div>
     </div>
-  )
+
+    <div className="button_bar">
+    <a href={'/contacts'}><button className="button1"><b className="b1">Связаться</b></button></a>
+    <a href={'/about'}><button className="button2"><b className="b2">Узнать подробнее</b></button></a>
+      </div>
+    
+
+    <div className="background">
+      <div className="Ellipse1"></div>
+        <div className="Vector"></div>
+          <div className="Ellipse2"></div>
+    </div>
+
+    <Navbar />
+
+    <div className="box">
+          <div className="photo1"></div>
+            <div className="photo2" ></div> 
+    </div>
+
+    
+  
+    </>
+ )
 }
+ 
