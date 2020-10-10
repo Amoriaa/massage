@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/Navbar'
+import Navbar1 from '../components/Navbar1'
+import Language2 from '../components/Language2'
 
 
 export default function About() {
@@ -10,7 +11,6 @@ export default function About() {
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,136&display=swap" rel="stylesheet"></link>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet"/>
     <title>|Услуги|</title>
-    <meta name="keywords" content="массаж, релакс, уход за собой, уход, как делать массаж, массаж Рига, массаж Латвия" />
     <meta charSet="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -37,7 +37,8 @@ export default function About() {
                     <div className="back_4"></div>
                         <div className="back_5"></div>                    
                 </div>
-                <Navbar />
+                <Navbar1 />
+                <Language2 />
                 
         <div className="listiki">
                 <div className="list1"></div>
@@ -68,9 +69,24 @@ export default function About() {
                         <div className="img13"></div>
 
                </div>
-                
-                <div className="info_box">
+            
+               
 
+              
+                <div className="info_box">
+                <div className="cena1">90 мин. 35 € / 60 мин. 25 €</div>
+                    <div className="cena2">60 мин. 25€ / 90 мин. 35€</div>
+                        <div className="cena3">30 мин. 10€ / 45 мин. 15€ / 60 мин. 20€ </div>
+                            <div className="cena4">5-20 мин. 10€</div>
+                                <div className="cena5">30-40 мин. 15€</div>
+                                    <div className="cena6">90 мин. 40 €</div>
+                                    <div className="cena7">60 мин. 25€ / 90 мин. 35€</div>
+                                <div className="cena8">15 мин. 10€ / 45 мин. 20€ / 60 мин. 30€ / 90 мин. 40€ </div>
+                            <div className="cena9">45 мин. 25€ / 60 мин. 30€</div>
+                        <div className="cena10">45 мин. 25€ / 60 мин. 30€</div>
+                    <div className="cena11">30 мин. 15€ / 60 мин. 25€</div>
+                <div className="cena12">45 мин. 30€ / 60 мин. 35€</div>
+                {/* <div className="cena13">?€</div> */}
                 <div className="info_13"><p></p>Ваксинг</div>
 
 <div className="rectangle12">
@@ -101,7 +117,7 @@ export default function About() {
 
 <div className="rectangle10">
    
-   <div className="info_11_1"><p>Массаж стоп нормализуется кровоток, повышается
+   <div className="info_11_1"><p>Нормализуется кровоток, повышается
 тонус мышц, нормализуется состояние нервной системы, 
 улучшается настроение, память, стабилизируется сон, 
 проходит тревожность и беспокойство.
@@ -195,7 +211,7 @@ export default function About() {
                    <div className="info_3_1"><p>Терапия сможет принести организму не только выздоровление,
     но и расслабление.
     Улучшить кровообращение,
-    состояние мыщц,
+    состояние мышц,
         работу ЦНС, а так же избавит от болей.
     </p></div>
    
@@ -221,7 +237,7 @@ export default function About() {
     поврежденных тканей.</p></div>
     
         <div className="lenta1"></div>
-        
+            
                 </div>
                 </div>
     </>

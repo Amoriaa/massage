@@ -1,18 +1,17 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/Navbar'
-
+import Navbar1 from '../components/Navbar1'
+import Language3 from '../components/Language3'
 
 export default function Contacts() {
   return (
     <>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet"/>
-    <title>|Контакты|</title>
-    <meta name="keywords" content="ключевые слова" />
     <meta charSet="utf-8"/>
-    
+    <title>|Контакты|</title>
     <div className="ground">
-    <Navbar />
+    <Navbar1 />
+    <Language3 />
       <div className="background2"></div>
     </div>
     
