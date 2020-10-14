@@ -24,8 +24,8 @@ export default function Contacts() {
               <div className="location_pic"></div>
                   <div className="facebook_pic"></div>
         <h1 className="phone">+371-23-277-067</h1>
-        <p className="location">Deglava iela 69
-         Active Kids</p>
+        <p className="location">Улица Дэглава 69D
+         "Active Kids"</p>
     <p className="facebook">Yuliya Demchuk</p>
     </div>
 
