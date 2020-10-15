@@ -35,9 +35,10 @@
   position: relative;
   width: 800px;
   height: 500px;
-  left: 250px;
+  left: 340px;
   top: 150px;
   align-content: center;
+  transform: scale(0.7);
 }
 .line2{
     position: absolute;
@@ -120,22 +121,23 @@ color: #381404;
     background-repeat: no-repeat;
 }
 .loc1{
-  background-image: url(../images/try1.jpeg);
+  background-image: url(../images/333.jpg);
     position: absolute;
-    width: 387px;
-    height: 425px;
-    left: -200px;
-    top: 46px;
+    width: 1300px;
+    height: 870px;
+    left: -850px;
+    top: -200px;
     background-repeat: no-repeat;
-    border-radius: 66px;
+    border-radius: 186px;
+    transform: scale(0.6);
 }
 .loc2{
-  background-image: url(../images/try1.jpeg);
+  background-image: url(../images/111.jpg);
     position: absolute;
-    width: 387px;
-    height: 425px;
-    left: 800px;
-    top: 46px;
+    width: 587px;
+    height: 825px;
+    left: 820px;
+    top: -100px;
     background-repeat: no-repeat;
     border-radius: 66px;
 }
