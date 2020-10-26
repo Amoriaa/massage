@@ -178,3 +178,46 @@ a :hover{
   background: #C27B6C; 
   transition-duration: .5s;
 }
+
+@media screen and (min-width: 1440px) and (max-width: 1599px){
+  /* For PC: */
+  [class*="col-"] {
+    width: 100%;
+  }
+.information{
+
+}
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .name{
+    text-align: left;
+    font-size: 30px;
+
+  }
+  .galochka{
+    top: 120px;
+  }
+  .info1 p{
+    text-align: left;
+    font-size: 30px;
+  }
+  .info2 p{
+    text-align: left;
+    font-size: 30px;
+    width: 500px;
+  }
+  .button1,
+  .button2{
+    top: -1rem;
+  }
+
+
+}
