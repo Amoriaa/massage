@@ -1168,7 +1168,7 @@ color: #000000;
 }
 /*  */
 ::-webkit-scrollbar-button {
-  background-image:url('');
+  /* background-image:url(''); */
   background-repeat:no-repeat;
   width:5px;
   height:0px
@@ -1189,7 +1189,7 @@ color: #000000;
   }
   
   ::-webkit-resizer{
-  background-image:url('');
+  /* background-image:url(''); */
   background-repeat:no-repeat;
   width:4px;
   height:0px
