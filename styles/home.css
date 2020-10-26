@@ -1,9 +1,3 @@
-@media screen and (max-width:321px){
-  body{width:100px}
-  }
-  #__next{
-    height: 0;
-  }
 html,
 body {
   padding: 0;
@@ -179,23 +173,10 @@ a :hover{
   transition-duration: .5s;
 }
 
-@media screen and (min-width: 1440px) and (max-width: 1599px){
-  /* For PC: */
-  [class*="col-"] {
-    width: 100%;
-  }
-.information{
-
-}
-
-}
-
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
+
 
   .name{
     text-align: left;
