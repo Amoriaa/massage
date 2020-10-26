@@ -151,7 +151,7 @@ color: #381404;
     transform: scale(0.3);
   align-items: left;
     text-align: left;
-    left: -180px;
+    left: -130px;
     top: 100px;
   }
   .loc1{
@@ -164,4 +164,5 @@ color: #381404;
     left: 45rem;
     top: -200px;
   }
+
 }

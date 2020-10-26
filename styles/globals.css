@@ -79,9 +79,9 @@
   .menu{
     left: 1rem;
   }
-  .languages{
+  .languages a{
     left: 1rem;
-    top: -90px;
+    top: -7rem;
     transform: scale(0.6);
   }
 }

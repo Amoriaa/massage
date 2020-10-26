@@ -1455,4 +1455,9 @@ color: #000000;
   a.idTop{
     transform: scale(0.7);
   }
+  .languages{
+    left: 1rem;
+    top: -7rem;
+    transform: scale(0.6);
+  }
   }
